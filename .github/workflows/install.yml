@@ -11,6 +11,7 @@ jobs:
     strategy:
       matrix:
         version:
+          - latest
           - '24.04'
           - '22.04'
     runs-on: ubuntu-${{ matrix.version }}
